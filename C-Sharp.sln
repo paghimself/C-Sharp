@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "C-Sharp\Algorithms.csproj", "{B3912216-3559-4996-BB5C-C3808530CD7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Algorithms.csproj", "{B3912216-3559-4996-BB5C-C3808530CD7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Tests", "Algorithms.Tests\Algorithms.Tests.csproj", "{C4270A4F-AAA8-4961-83BA-4940A3E0422E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms.Tests", "Algorithms.Tests\Algorithms.Tests.csproj", "{C4270A4F-AAA8-4961-83BA-4940A3E0422E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{77944C7B-B6E7-4AD8-9ED3-5571EBA319B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Tests", "DataStructures.Tests\DataStructures.Tests.csproj", "{74847BA3-DBC9-48EC-80E1-CF1BDB9E2D2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C4270A4F-AAA8-4961-83BA-4940A3E0422E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4270A4F-AAA8-4961-83BA-4940A3E0422E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4270A4F-AAA8-4961-83BA-4940A3E0422E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77944C7B-B6E7-4AD8-9ED3-5571EBA319B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77944C7B-B6E7-4AD8-9ED3-5571EBA319B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77944C7B-B6E7-4AD8-9ED3-5571EBA319B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77944C7B-B6E7-4AD8-9ED3-5571EBA319B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74847BA3-DBC9-48EC-80E1-CF1BDB9E2D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74847BA3-DBC9-48EC-80E1-CF1BDB9E2D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74847BA3-DBC9-48EC-80E1-CF1BDB9E2D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74847BA3-DBC9-48EC-80E1-CF1BDB9E2D2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
