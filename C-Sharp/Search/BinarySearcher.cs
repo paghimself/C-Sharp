@@ -7,7 +7,7 @@ namespace Algorithms.Search
         public int FindIndex(T[] sortedData, T item)
         {
             var leftIndex = 0;
-            var rightIndex = sortedData.Length;
+            var rightIndex = sortedData.Length - 1;
 
             while (leftIndex <= rightIndex)
             {
